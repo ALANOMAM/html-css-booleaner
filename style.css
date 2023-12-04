@@ -3,17 +3,14 @@ body{
     margin:0;
 }
 
-.container{
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
+/* inizio header*/
 #logo{
     width: 200px;
     height: 200px;
     margin-top: -50px;
 }
-
+/* parte che riguarda il pattern*/
 #sezione-iniziale{
     background-color: aquamarine;
     height: 100px;
@@ -22,6 +19,17 @@ body{
     background-size:contain; 
     background-color:lightskyblue;
 }
+/* fine headerr*/
+
+/* inizio main*/
+
+
+ /* quello che mette tutta la pagina in centro*/
+ .container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 
 #title{
     font-size: 30px;
@@ -56,7 +64,7 @@ span{
     color:black;
 }
 
-table {
+table {                          /*inizio styling della tabella*/
   border-collapse: collapse;
 }
 
@@ -79,10 +87,10 @@ padding-bottom: 10px;
 
 tr.color{
     background-color:lightblue;
-}
+}                                          /*fine styling della tabella*/
+/* fine main */
 
-
-
+/* inizio footer*/
 #end-page{
 color:gray;
 font-weight: bold;
@@ -108,3 +116,4 @@ font-size: 20px;
     margin-top: -200px;
     margin-left: 30px;
 }
+/* fine footer*/
