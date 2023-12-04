@@ -3,6 +3,10 @@ body{
     margin:0;
 }
 
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 #logo{
     width: 200px;
@@ -50,4 +54,57 @@ span{
 .span-paragraph{
     background-color: yellow;
     color:black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th{
+background-color:rgb(39, 192, 243);
+padding-left: 20px;
+padding-right:20px;
+color:white;
+
+
+}
+
+td{
+padding-left: 20px;
+padding-right:20px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+tr.color{
+    background-color:lightblue;
+}
+
+
+
+#end-page{
+color:gray;
+font-weight: bold;
+font-size: 20px;
+}
+
+
+
+.end-p1{
+    color:white;
+    font-weight: bold;
+    font-size: 20px; 
+    position: absolute; 
+    margin-top: -200px;
+    margin-left: 30px;
+}
+
+.end-p2{
+    color:white;
+    font-weight: bold;
+    font-size: 20px; 
+    position: absolute; 
+    margin-top: -200px;
+    margin-left: 30px;
 }
