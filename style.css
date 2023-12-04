@@ -46,3 +46,8 @@ span{
     font-weight: bold;
     font-size: 20px;
 }
+
+.span-paragraph{
+    background-color: yellow;
+    color:black;
+}
