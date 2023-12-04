@@ -10,7 +10,6 @@ body{
     margin-top: -50px;
 }
 
-
 #sezione-iniziale{
     background-color: aquamarine;
     height: 100px;
@@ -18,4 +17,21 @@ body{
     background-position: center; 
     background-size:contain; 
     background-color:lightskyblue;
+}
+
+#titolo{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#autore{
+    width: 230px;
+    margin-top:-15px;
+    font-size: 20px;
+    color: gray;
+
+}
+
+span{
+    color: lightskyblue;
 }
