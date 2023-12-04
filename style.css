@@ -19,12 +19,12 @@ body{
     background-color:lightskyblue;
 }
 
-#titolo{
+#title{
     font-size: 30px;
     margin-top: 10px;
 }
 
-#autore{
+#author{
     width: 230px;
     margin-top:-15px;
     font-size: 20px;
@@ -34,4 +34,9 @@ body{
 
 span{
     color: lightskyblue;
+}
+
+.picture-description{
+    width: 485px;
+    margin-top: 0px;
 }
