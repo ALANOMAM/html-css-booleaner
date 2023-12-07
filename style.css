@@ -59,10 +59,6 @@ span{
     font-size: 20px;
 }
 
-.span-paragraph{
-    background-color: yellow;
-    color:black;
-}
 
 table {                          /*inizio styling della tabella*/
   border-collapse: collapse;

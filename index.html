@@ -27,19 +27,23 @@
 <main class="container">  <!--inizio main-->
 
 <sezione>
+    <figure>  <!--aggiunta figure e fig-caption, consigliate quando si definisce una immagine con descrizione, per una questione di semanticità e navigazione con google chrome -->
+
     <img src="./images/tim-1.jpg" alt="image tim 1">
     <img src="./images/tim-2.jpg" alt="image tim 2 ">
-   <div>
-    <p class="picture-description">1st photo: John S.and James L.Knoght Foundation,by  Scott Henrichsen
-        2nd photo: Wikimedia,by Paul Clarke</p>
-   </div>
+   <figcaption class="picture-description">
+    1st photo: John S.and James L.Knoght Foundation,by  Scott Henrichsen
+        2nd photo: Wikimedia,by Paul Clarke
+   </figcaption>
+
+   </figure>
 </sezione>
 
 <sezione>
 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur 
     distinctio atque modi vero? Aperiam veniam dolore praesentium eligendi debitis,asperiores fugiat 
     quasi animi necessitatibus eum quidem! Distinctio, voluptatum error.
-Lorem, <span class="span-paragraph">ipsum dolor sit amet consectetur adipisicing elit.</span> Eligendi perspiciatis, 
+Lorem, <mark>ipsum dolor sit amet consectetur adipisicing elit. Eligendi perspiciatis,</mark> <!--aggiunto il tag "mark" che serve per evidenziare-->
 unde esse facilis eos aliquid laboriosam voluptate suscipit nobis? 
 Fugiat placeat laborum est officiis minus laudantium eum quibusdam cumque blanditiis?</p>
 </sezione>
@@ -88,7 +92,7 @@ Fugiat placeat laborum est officiis minus laudantium eum quibusdam cumque blandi
     <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur 
         distinctio atque modi vero? Aperiam veniam dolore praesentium eligendi debitis,asperiores fugiat 
         quasi animi necessitatibus eum quidem! Distinctio, voluptatum error.
-    Lorem, ipsum dolor sit amet <span class="span-paragraph">consectetur adipisicing elit. Eligendi perspiciatis,</span>
+    Lorem, ipsum dolor sit amet <mark>consectetur adipisicing elit. Eligendi perspiciatis,</mark>
     unde esse facilis eos aliquid laboriosam voluptate suscipit nobis? 
     Fugiat placeat laborum est officiis minus laudantium eum quibusdam cumque blanditiis?</p>
 </sezione>
